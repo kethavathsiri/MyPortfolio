@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website</title>
+
+    <!-- Box Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header Design -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a> <!-- Fixed ID -->
+        <a href="#services">Languages</a> <!-- Fixed ID -->
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Kethavath Shirisha</h1>
+        <h3>And I'm interested in <span class="multiple-text">Frontend Developer</span></h3>
+
+        <p>
+          I'm an aspiring Software Development Engineer with experience in building innovative applications using web Technolgies. Let's connect if you'd like to learn more!
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/kethavathsiri/" target="_blank"><i class='bx bxl-github'></i></a>
+          <a href="https://x.com/ShirishaKe36309?t=Fp4LacDlEPxiEVhpO-Q9dg&s=08" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/shirisha__kethavath/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="https://www.linkedin.com/in/shirishakethavath/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="https://drive.google.com/file/d/1duN92jwB7E9ouZVfq2a52v2OrBmkUHij/view?usp=sharing" class="btn" target="_blank">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="images/mee.png" alt="Profile Image" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="images/k.png" alt="About Image" />
+  </div>
+  <div class="about-content">
+    <h2 class="heading">About <span>Me!</span></h2>
+    <h3>Frontend Developer</h3>
+    <p>
+      I am a Software Development Engineer with experience in building innovative applications using React and Node.js.
+    </p>
+    <div class="domains">
+      <div class="domain">
+        <h4>Backend Development</h4>
+        <p>
+          I am currently learning backend development and working with APIs to enhance my full-stack development skills.
+        </p>
+      </div>
+      <div class="domain">
+        <h4>Data Structures & Algorithms (DSA)</h4>
+        <p>
+          I am actively improving my problem-solving skills by learning Data Structures and Algorithms (DSA). My focus includes core concepts such as arrays, linked lists, stacks, queues, trees, and graphs, as well as algorithms for sorting, searching, and dynamic programming.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+    <!-- Services Section -->
+   <!-- Services Section -->
+   <section class="services" id="services">
+    <h2 class="heading">Languages <span>Known</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <img src="html.png" alt="HTML5 Logo" class="service-image">
+        <h3>HTML</h3>
+      </div>
+  
+      <div class="services-box">
+        <img src="css.png" alt="CSS Logo" class="service-image">
+        <h3>CSS</h3>
+      </div>
+  
+      <div class="services-box">
+        <img src="node.png" alt="JavaScript Logo" class="service-image">
+        <h3>JavaScript</h3>
+      </div>
+  
+      <div class="services-box">
+        <img src="react.png" alt="React.js Logo" class="service-image">
+        <h3>React.js</h3>
+      </div>
+  
+      <div class="services-box">
+        <img src="p.png" alt="Java Logo" class="service-image">
+        <h3>Java</h3>
+      </div>
+  
+      <div class="services-box">
+        <img src="cppp.png" alt="C++ Logo" class="service-image">
+        <h3>C++</h3>
+      </div>
+  
+      <div class="services-box">
+        <img src="i.png" alt="Python Logo" class="service-image">
+        <h3>Python</h3>
+      </div>
+  
+      <div class="services-box">
+        <img src="s.png" alt="SQL Logo" class="service-image">
+        <h3>SQL</h3>
+      </div>
+  
+      <div class="services-box">
+        <img src="mongodb.png" alt="MongoDB Logo" class="service-image">
+        <h3>MongoDB</h3>
+      </div>
+    </div>
+  </section>
+  
+
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/w1.jpg" alt="Project 1" />
+          <div class="portfolio-layer">
+            <h4>Weather App</h4>
+            <p>The app fetches data from a weather API, providing current temperatures, forecasts, and additional weather details in an intuitive interface.</p>
+            <a href="https://kethavathsiri.github.io/Weather-App/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/food.jpg" alt="Project 2" />
+          <div class="portfolio-layer">
+            <h4>Online Food Ordering</h4>
+            <p>Ordering food online, enable users to browse menus, and make secure payments.</p>
+            <a href="https://github.com/kethavathsiri/Online-Food-Ordering-System" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio3.jpg" alt="Project 3" />
+          <div class="portfolio-layer">
+            <h4>Email Software</h4>
+            <p>This Email Software project it includes Inbox, SentBox, ComposeMail,
+              Login ,Logout etc...</p>
+            <a href="https://github.com/kethavathsiri/EmailSotware" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/c.jpg" alt="Project 1" />
+          <div class="portfolio-layer">
+            <h4>Calculator</h4>
+            <p>Calculator web app that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.</p>
+            <a href="https://kethavathsiri.github.io/Calculator/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        
+        <div class="portfolio-box">
+          <img src="images/r.jpg" alt="Project 1" />
+          <div class="portfolio-layer">
+            <h4>Resume Building</h4>
+            <p>A user-friendly web app for creating resumes, allowing users to input information and download in PDF format.</p>
+            <a href="https://github.com/kethavathsiri/Resume-Builder" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        
+         <div class="portfolio-box">
+          <img src="images/p.jpg" alt="Project 2" />
+          <div class="portfolio-layer">
+            <h4>Portfolio</h4>
+            <p>Projects such as a Weather App, Food Ordering System and Resume Builder. It also includes education details and contact links for easy connection.</p>
+            <a href="https://kethavathshirishaportfolio.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Kethavath Shirisha | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a> <!-- Fixed href -->
+      </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
